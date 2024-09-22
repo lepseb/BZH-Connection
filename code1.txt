@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BZH Connection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur BZH Connection</h1>
+        <h2>Soutenir la culture, les artistes, et l’environnement en Bretagne</h2>
+        <nav>
+            <ul>
+                <li><a href="#projets">Découvrir nos projets</a></li>
+                <li><a href="#adhesion">Soutenir l'association</a></li>
+                <li><a href="#contact">Rejoignez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mission">
+        <h3>Notre Mission</h3>
+        <p>BZH Connection est une association bretonne dédiée à la promotion de projets artistiques, sociaux, et environnementaux. Nous visons à soutenir la culture bretonne et à favoriser la création de liens solides au sein des communautés.</p>
+    </section>
+
+    <section id="projets">
+        <h3>Nos Projets</h3>
+        <ul>
+            <li><strong>Art et Culture</strong>: Soutien aux artistes locaux, événements, et festivals.</li>
+            <li><strong>Écologie et Environnement</strong>: Initiatives pour promouvoir le développement durable.</li>
+            <li><strong>Actions sociales</strong>: Inclusion et développement de projets solidaires.</li>
+        </ul>
+    </section>
+
+    <section id="actualites">
+        <h3>Actualités</h3>
+        <p>Restez informés des derniers événements et collaborations.</p>
+    </section>
+
+    <section id="partenaires">
+        <h3>Nos Partenaires</h3>
+        <p>Merci à nos partenaires qui soutiennent nos projets !</p>
+    </section>
+
+    <section id="apropos">
+        <h3>Qui sommes-nous ?</h3>
+        <p>BZH Connection est née de la volonté de promouvoir la diversité culturelle en Bretagne. Nous travaillons à la création d’un réseau solidaire autour de projets locaux.</p>
+    </section>
+
+    <section id="adhesion">
+        <h3>Rejoignez BZH Connection</h3>
+        <p>En devenant membre, vous soutenez nos initiatives culturelles, sociales et environnementales.</p>
+        <form action="#" method="POST">
+            <label for="email">Votre Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Adhérer</button>
+        </form>
+    </section>
+
+    <section id="boutique">
+        <h3>Nos produits artisanaux</h3>
+        <p>Découvrez notre gamme de produits locaux et artisanaux.</p>
+    </section>
+
+    <section id="contact">
+        <h3>Contactez-nous</h3>
+        <form action="#" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Email: <a href="mailto:contact@bzhconnection.org">contact@bzhconnection.org</a></p>
+    </section>
+
+    <footer>
+        <p>Liens rapides | Newsletter | Mentions légales | Politique de confidentialité</p>
+    </footer>
+</body>
+</html>
